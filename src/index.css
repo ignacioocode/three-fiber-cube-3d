@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #071d37, #0c457d);
+}
+
+.Canvas {
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  opacity: 0.5;
+  position: absolute;
+}
+
+h3 {
+  position: fixed;
+  bottom: 20px;
+  animation: animation 1.5s infinite;
+  width: 100%;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
